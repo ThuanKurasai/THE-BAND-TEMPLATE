@@ -1,0 +1,71 @@
+@media (max-width: 740px) {
+    #nav {
+        display: block;
+    }
+    #nav .subnav   {
+        position: initial;
+        background: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px
+    }
+#nav > li {
+    display: block;
+}
+#nav > li:first-child {
+    display: inline-block;
+}
+
+.text-content {
+    display: none;
+}
+#header {
+    overflow: hidden;
+}
+#header .mobile-menu-search {
+    display: block;
+}
+#header .search-btn {
+    display: none;
+}
+#content .members-list {
+    flex-direction: column;
+    align-items: center;
+}
+#content .member-item {
+    width: 60%;
+}
+#content .member-img {
+    width: 100%;
+}
+#content .place-list {
+    display: flex;
+    flex-direction: column;
+}
+#content .place-item {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#content .contact-info {
+    width: 100%;
+}
+#content .contact-input {
+    width: auto;
+    margin: 15px 0;
+}
+#content .contact-input--name {
+
+    width: 100%;
+}
+#content .contact-input--email{
+    width: 100%;
+    margin-left: auto;
+
+}
+#content .contact-input--name,
+#content .contact-input--email,
+#content .contact-input--message {
+border: 1px solid #999;
+}
+}
